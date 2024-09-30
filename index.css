@@ -21,6 +21,11 @@ button {
     translate: 0 100% !important;
 }
 
+.initial {
+    display: grid;
+    gap: 20px;
+}
+
 .prPreview {
     position: relative;
     display: flex;
@@ -32,21 +37,10 @@ button {
     aspect-ratio: 1;
 }
 
-.pageBtnWrap {
-    position: fixed;
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
-    gap: 6px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.pageBtnWrap > button {
+.showPopup {
     display: flex;
     height: 50px;
+    width: 100%;
     background: black;
     color: white;
     font-size: 17px;
@@ -58,17 +52,13 @@ button {
     border: 2px solid black;
 }
 
-.pageBtnWrap > button:hover {
+.showPopup:hover {
     background: white;
     color: black;
 }
 
-.pageBtnWrap > button:hover::after {
+.showPopup:hover::after {
     filter: invert(0);
-}
-
-.showPopup {
-    grid-column: 1/3;
 }
 
 .showPopup::after {
@@ -90,6 +80,7 @@ button {
     top: 0;
     left: 0;
     background: #393939f2;
+    z-index: 999999;
 }
 
 .popupEditor {
