@@ -95,6 +95,8 @@ button {
 @media only screen and (min-width: 768px) {
     .popupEditor {
         border-radius: 30px;
+        margin: 15px 0;
+        height: calc(100% - 30px);
     }
     .customBox {
         display: flex !important;
@@ -649,7 +651,7 @@ button.invert {
     width: auto;
 }
 
-.slider {
+.popupEditor .slider {
     position: relative;
     display: flex;
     align-items: center;
@@ -660,7 +662,7 @@ button.invert {
     padding: 0 5px;
 }
 
-.slider >* {
+.popupEditor .slider >* {
     flex: none;
     height: calc(80% - 5px);
     border-radius: var(--base-border-radius);
@@ -668,7 +670,7 @@ button.invert {
     transition: 0.3s;
 }
 
-.slider > .selected {
+.popupEditor .slider > .selected {
     height: calc(100% - 5px);
     box-shadow: 0 0 3px 0px red;
     border: 2px solid red;
