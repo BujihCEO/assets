@@ -15,6 +15,7 @@ var iniciar = {
                 {
                     tittle: 'Foto',
                     upload: {
+                        cutBG: true,
                         type: 'svg',
                         attrs: {
                             noEdit: {

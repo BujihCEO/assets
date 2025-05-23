@@ -42,6 +42,7 @@ var iniciar = {
                     group: {x: 128, y: 129, width: 345, height: 341},
                     tittle: 'Foto',
                     upload: {
+                        cutBG: true,
                         type: 'svg',
                         attrs: {
                             noEdit: {
