@@ -8,14 +8,12 @@ var colorMenu = [
 ];
 
 var iniciar = {
-    produtos: ['Camiseta', 'BabyLook', 'Cropped', 'Ecobag'],
+    produtos: ['Camiseta', 'Cropped'],
     add: {
         Frente: {
             attrs: [
                 {x: 138, y: 56, width: 598, height: 591},
-                {x: 128, y: 42, width: 540, height: 531},
                 {x: 125, y: 11, width: 514, height: 508},
-                {x: 230, y: 88, width: 720, height: 708},
             ],
             add: [
                 {

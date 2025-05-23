@@ -1,6 +1,6 @@
 var colorMenu = [
     {
-        color: '#e65a8f',
+        color: '#707aff',
     },
 ];
 
@@ -9,7 +9,7 @@ var iniciar = {
     add: {
         Costa: {
             attrs: [
-                {x: 64, y: 40, width: 750, height: 1015},
+                {x: 0, y: 20, width: 877, height: 1183},
             ],
             add: [
                 {
@@ -24,10 +24,10 @@ var iniciar = {
                             },
                         },
                         add: [
-                            {width: 750, height: 250},
-                            {y: 255, width: 750, height: 250},
-                            {y: 510, width: 750, height: 250},
-                            {y: 765, width: 750, height: 250}
+                            {width: 877, height: 292},
+                            {y: 297, width: 877, height: 292},
+                            {y: 594, width: 877, height: 292},
+                            {y: 891, width: 877, height: 292}
                         ]
                     },
                 },
